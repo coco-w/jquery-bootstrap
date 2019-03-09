@@ -69,3 +69,11 @@ header{
     color:rgba(255,255,255,0.8);
 }
 
+
+
+
+/* 手机端 */
+.navbar-default .navbar-collapse{
+    border: none;
+    box-shadow: none;
+}
