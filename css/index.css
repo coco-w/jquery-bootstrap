@@ -1,4 +1,7 @@
 /*王林强*/
+body{
+    position: relative;
+}
 header{
     position: absolute;
     width: 100%;
@@ -10,6 +13,21 @@ header{
     background-color:transparent;
     box-shadow: none;
     border: none;
+}
+nav.navbar-fixed-top{
+    background: #fff;
+}
+.navbar-fixed-top .navbar-nav>li>a>span{
+    color: rgba(0,0,0,0.5) ;
+}
+.navbar-fixed-top .navbar-brand{
+    color: #52d3aa !important;
+}
+.navbar-fixed-top .active span{
+    color: #52d3aa !important;
+}
+.navbar-fixed-top .navbar-nav > li > a:hover >span{
+    color: #52d3aa ;
 }
 .navbar .navbar-brand{
     font-size: 28px;
@@ -77,7 +95,7 @@ header{
     background: #fff;
     position: absolute;
     bottom: 0;
-    margin-bottom: -20px;
+    margin-bottom: -40px;
     transform: rotate(-1.7deg)
 }
 /* home手机菜单 */
