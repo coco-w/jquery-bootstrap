@@ -109,9 +109,89 @@ nav.navbar-fixed-top{
 /* animated */
 .animated{
     position: relative;
-    height: 1000px;
     width: 100%;
-    margin-top: -15px;
+    margin-top: -130px;
+    padding-bottom:140px;
+}
+.animated .col-md-4{
+    padding: 0;
+}
+#cards{
+    padding-bottom: 140px;
+}
+.animated .card{
+    background: #fff;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
+}
+.animated .card i{
+    font-size: 50px;
+    color: #52d3aa;
+}
+.animated .card h2{
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+.animated .card p{
+    margin-bottom: 25px;
+    font-size: 16px;
+    color: #7f7f7f;
+}
+.animated .card button{
+    background-color: #52d3aa;
+    background-image: none;
+    border: 2px solid transparent ;
+    margin-bottom: 25px;
+    font-size: 14px;
+    padding: 6px 12px;
+    border-radius: 4px;
+}
+.animated .card:hover{
+    background-image: url(../bootstrapelate/images/img_7.jpg);
+    background-size: cover;
+}
+.animated .card:hover i,
+.animated .card:hover p,
+.animated .card:hover button,
+.animated .card:hover h2{
+    color: #fff;
+    background:transparent;
+}
+.animated .card:hover button{
+    border: 1px solid #fff;
+}
+#video{
+    text-align: center;
+}
+#video .text{
+    font-weight: bold;
+    color: #7f7f7f;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+#video .player{
+    display: inline-block;
+    position: relative;
+    width: 120px;
+    height: 120px;
+    font-size: 80px;
+    color: #52d3aa;
+    border: 3px solid #52d3aa;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#video .player i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: block;
+    margin-top: -40px;
+    margin-left: -30px;
 }
 /* 媒体查询 */
 @media screen and (max-width: 768px) {
