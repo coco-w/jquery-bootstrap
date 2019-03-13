@@ -202,14 +202,17 @@ nav.navbar-fixed-top{
     background-image: repeating-linear-gradient(to bottom right,#3f95ea, #52d3aa);
     padding: 140px 0;
 }
+.work p{
+    color: rgba(255, 255, 255, 0.8);
+}
 .work .slant:first-child{
     top: 0;
     margin-top: -30px;
 }
-.work .tittle{
+.section-heading{
     text-align: center;
 }
-.work .tittle h2{
+.section-heading h2{
     color: #fff;
     font-size: 50px;
     font-weight: 300;
@@ -217,7 +220,7 @@ nav.navbar-fixed-top{
     padding-bottom: 30px;
     margin-bottom: 30px;
 }
-.work .tittle h2::after{
+.section-heading h2::after{
     content: '';
     position: absolute;
     width: 80px;
@@ -228,12 +231,15 @@ nav.navbar-fixed-top{
     margin-left: -40px;
     
 }
-.work .tittle p{
-    color: rgba(255, 255, 255, 0.8);
+.section-heading p{
+    
     font-weight: 300;
     line-height: 1.5;
     font-size: 24px;
     margin-bottom: 90px;
+}
+.work .project{
+    margin-bottom: 50px;
 }
 .work  .project-item{
     display: block;
@@ -269,12 +275,86 @@ nav.navbar-fixed-top{
     font-size: 16px;
     font-weight: 400;
 }
+.work .footer{
+    text-align: center;
+    font-size: 20px;
+    line-height: 1.5;
+    font-weight: 300;
+}
+.work .footer a {
+    color: rgba(255, 255, 255, 0.5);
+    text-decoration: underline;
+}
 .work .slant:last-child{
     bottom: 0;
     margin-bottom: -40px;
     top: none;
     margin-top: none;
 }
+.testimonials{
+    position: relative;
+    overflow: hidden;
+}
+.testimonials .section-heading h2{
+    color: #444;
+}
+.testimonials .section-heading p{
+    color:rgba(0, 0, 0, 0.4)
+}
+.testimonials .section-heading h2::after{
+        background: #52d3aa;
+}
+.testimonials .text{
+    padding: 30px;
+    background-color: #52d3aa;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    font-style: oblique;
+    position: relative;
+    margin-bottom: 20px;
+    border-radius: 7px;
+}
+.testimonials .text::before{
+    content: '';
+    position: absolute;
+    border: 10px solid #52d3aa;
+    top: 100%;
+    width: 0;
+    height: 0;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+}
+.testimonials .user{
+    padding: 10px;
+}
+.testimonials .user .head{
+    float: left;
+    margin-right: 10px;
+}
+.testimonials .user .head img{
+    width: 60px;
+    border-radius: 50%;
+}
+.testimonials .user p{
+    float: left;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.testimonials .user a{
+    color: #52d3aa;
+}
+.testimonials .user p span{
+    display: block;
+    color: rgba(0, 0, 0, 0.4)
+}
+.testimonials .slant{
+
+}
+
+
 /* 媒体查询 */
 @media screen and (max-width: 768px) {
     header{
