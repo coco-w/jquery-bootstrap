@@ -1,4 +1,7 @@
 /*王林强*/
+a:hover{
+    text-decoration: none;
+}
 body{
     position: relative;
 }
@@ -192,6 +195,85 @@ nav.navbar-fixed-top{
     display: block;
     margin-top: -40px;
     margin-left: -30px;
+}
+.work {
+    position: relative;
+    overflow: hidden;
+    background-image: repeating-linear-gradient(to bottom right,#3f95ea, #52d3aa);
+    padding: 140px 0;
+}
+.work .slant:first-child{
+    top: 0;
+    margin-top: -30px;
+}
+.work .tittle{
+    text-align: center;
+}
+.work .tittle h2{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 300;
+    position: relative;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+.work .tittle h2::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    background: rgba(255, 255, 255, 0.3);
+    bottom: 0;
+    left: 50%;
+    margin-left: -40px;
+    
+}
+.work .tittle p{
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 24px;
+    margin-bottom: 90px;
+}
+.work  .project-item{
+    display: block;
+    position: relative;
+    background: #fff;
+    border-radius: 7px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    transition: 0.5s;
+    top: 0;
+    box-shadow: none;
+}
+.work  .project-item:hover{
+    top: -15px;
+    box-shadow: 7px 14px 42px 3px rgba(0, 0, 0, 0.4)
+}
+.work .project-item img{
+    width: 100%;
+}
+.work .project-item .text{
+    padding: 10px 20px;
+    
+}
+.work .project-item .text h2{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+    
+}
+.work .project-item .text span{
+    color: #b3b3b3;
+    font-size: 16px;
+    font-weight: 400;
+}
+.work .slant:last-child{
+    bottom: 0;
+    margin-bottom: -40px;
+    top: none;
+    margin-top: none;
 }
 /* 媒体查询 */
 @media screen and (max-width: 768px) {
