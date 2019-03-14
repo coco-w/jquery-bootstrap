@@ -4,6 +4,7 @@ $(function(){
         var st = $(window).scrollTop()
         if(st > 250) {
             $('.navbar').addClass('navbar-fixed-top')
+            
         }else{
            $('.navbar').removeClass('navbar-fixed-top')
         }
