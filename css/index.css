@@ -338,6 +338,7 @@ nav.navbar-fixed-top{
 }
 .testimonials .user{
     padding: 10px;
+    overflow: hidden;
 }
 .testimonials .user .head{
     float: left;
@@ -404,8 +405,8 @@ nav.navbar-fixed-top{
 .about {
     position: relative;
     overflow: hidden;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top:    30px;
+    padding-bottom: 30px;
 }
 .about-item{
     border: 2px solid rgba(0,0,0,0.1);
@@ -461,8 +462,42 @@ nav.navbar-fixed-top{
     font-size: 20px;
     color: #fff;
 }
-.fun{
-    
+.func{
+    position: relative;
+    overflow: hidden;
+    padding: 180px 0 200px;
+    background-image: url(../bootstrapelate/images/full_image_1.jpg)
+}
+.func .slant{
+    top: 0;
+    z-index: 1;
+    margin-top: -25px;
+
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(0,0,0,0.3);
+}
+.func .nums{
+    z-index: 3;
+}
+.func .nums i{
+    color: #52d3aa;
+    font-size: 40px;
+}
+.func .nums p{
+    color: #fff;
+    font-size: 70px;
+    font-weight: 300;
+}
+.func .nums span{
+    font-size: 18px;
+    font-weight: 40;
+    color:rgba(255, 255, 255, 0.5)
 }
 /* 媒体查询 */
 @media screen and (max-width: 768px) {
@@ -482,10 +517,6 @@ nav.navbar-fixed-top{
     }
     .navbar-default .navbar-nav > li > a{
         color:rgba(0,0,0,0.5) !important;
-    }
-    /* home尾巴 */
-    .slant{
-        transform: none;
     }
 }
 

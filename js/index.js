@@ -9,4 +9,5 @@ $(function(){
            $('.navbar').removeClass('navbar-fixed-top')
         }
     })
+    $('.counter').countUp()
 })

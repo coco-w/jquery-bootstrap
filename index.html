@@ -94,8 +94,25 @@
                 <div class="text">
                     <span>WATCH THE VIDEO</span>
                 </div>
-                <div class="player">
+                <div class="player" data-toggle="modal" data-target="#myModal">
                     <i class="icon-play2"></i>
+                </div>
+                <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                            </div>
+                            <div class="modal-body">
+                                ...
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -409,14 +426,44 @@
         </div>
     </section>
     <section class="func">
-        <div class="slant">
-            
+        <div class="slant"></div>
+        <div class="overlay">
+
+        </div>
+        <div class="container">
+            <div class="row section-heading ">
+                <h2>FUN FACTS</h2>
+            </div>
+            <div class="row nums">
+                <div class="col-md-3 col-sm-6 col-xxs-12 text-center">
+                    <i class="icon-briefcase"></i>
+                    <p class="counter" data-counter-time="2000" data-counter-delay="50">89</p>
+                    <span>Finished projects</span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xxs-12 text-center">
+                    <i class="icon-code"></i>
+                    <p class="counter" data-counter-time="2000" data-counter-delay="50">12353</p>
+                    <span>Finished projects</span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xxs-12 text-center">
+                    <i class="icon-coffee"></i>
+                    <p class="counter" data-counter-time="2000" data-counter-delay="50">244</p>
+                    <span>Finished projects</span>
+                </div>
+                <div class="col-md-3 col-sm-6 col-xxs-12 text-center">
+                    <i class="icon-people"></i>
+                    <p class="counter" data-counter-time="2000" data-counter-delay="50">32</p>
+                    <span>Finished projects</span>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- ==============js============================ -->
     <script src="node_modules/_jquery@3.3.1@jquery/dist/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.countup.min.js"></script>
     <script src="js/index.js"></script>
 </body>
 
