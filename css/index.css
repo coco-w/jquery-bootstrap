@@ -118,39 +118,39 @@ nav.navbar-fixed-top{
 }
 
 /* animated */
-.animated{
+.section-card{
     position: relative;
     width: 100%;
     margin-top: -130px;
     padding-bottom:140px;
 }
-.animated .col-md-4{
+.section-card .col-md-4{
     padding: 0;
 }
 #cards{
     padding-bottom: 140px;
 }
-.animated .card{
+.section-card .card{
     background: #fff;
     padding: 40px;
     text-align: center;
     box-shadow: 7px 14px 42px 3px rgba(163, 174, 184, 0.4);
 }
-.animated .card i{
+.section-card .card i{
     font-size: 50px;
     color: #52d3aa;
 }
-.animated .card h2{
+.section-card .card h2{
     font-size: 24px;
     font-weight: 400;
     margin-bottom: 30px;
 }
-.animated .card p{
+.section-card .card p{
     margin-bottom: 25px;
     font-size: 16px;
     color: #7f7f7f;
 }
-.animated .card button{
+.section-card .card button{
     background-color: #52d3aa;
     background-image: none;
     border: 2px solid transparent ;
@@ -159,18 +159,18 @@ nav.navbar-fixed-top{
     padding: 6px 12px;
     border-radius: 4px;
 }
-.animated .card:hover{
+.section-card .card:hover{
     background-image: url(../bootstrapelate/images/img_7.jpg);
     background-size: cover;
 }
-.animated .card:hover i,
-.animated .card:hover p,
-.animated .card:hover button,
-.animated .card:hover h2{
+.section-card .card:hover i,
+.section-card .card:hover p,
+.section-card .card:hover button,
+.section-card .card:hover h2{
     color: #fff;
     background:transparent;
 }
-.animated .card:hover button{
+.section-card .card:hover button{
     border: 1px solid #fff;
 }
 #video{
@@ -406,7 +406,6 @@ nav.navbar-fixed-top{
     position: relative;
     overflow: hidden;
     padding-top:    30px;
-    padding-bottom: 30px;
 }
 .about-item{
     border: 2px solid rgba(0,0,0,0.1);
@@ -444,12 +443,12 @@ nav.navbar-fixed-top{
     font-size: 20px;
     margin-bottom: 20px;
 }
-.about-item li{
+.icon li{
     display:inline-block;
     width: 40px;
     height: 40px;
 }
-.about-item li a{
+.icon li a{
     display: inline-block;
     width: 100%;
     height: 100%;
@@ -458,7 +457,7 @@ nav.navbar-fixed-top{
     position: relative;
     padding:10px;
 }
-.about-item li a i{
+.icon li a i{
     font-size: 20px;
     color: #fff;
 }
@@ -468,7 +467,7 @@ nav.navbar-fixed-top{
     padding: 180px 0 200px;
     background-image: url(../bootstrapelate/images/full_image_1.jpg)
 }
-.func .slant{
+.func .slant:first-child{
     top: 0;
     z-index: 1;
     margin-top: -25px;
@@ -498,6 +497,74 @@ nav.navbar-fixed-top{
     font-size: 18px;
     font-weight: 40;
     color:rgba(255, 255, 255, 0.5)
+}
+.concat {
+    position: relative;
+    padding-top: 50px;
+    overflow: hidden;
+    padding-bottom: 100px;
+}
+.concat .tittle{
+    font-size: 24px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 30px;
+    position: relative;
+}
+.concat .info{
+    padding-bottom: 10px;
+}
+.concat i{
+    position: absolute;
+    font-size: 20px;
+    color: #7f7f7f;
+}
+.concat .info p{
+    display: inline-block;
+    color: #7f7f7f;
+    font-weight: 300;
+    font-size: 20px;
+    padding-left: 40px;
+}
+.concat .form-control{
+    height: 54px;
+    font-size: 20px;
+    border-width: 2px;
+}
+.concat textarea{
+    height: 100% !important;
+    margin-bottom: 10px;
+}
+.concat .form-control:focus{
+    border-color: #52d3aa
+}
+.concat .btn {
+    padding: 10px 16px;
+    color: #fff;
+    background: #52d3aa;
+    font-size: 218x;
+    letter-spacing: 2px;
+}
+footer{
+    padding: 50px 0;
+    position: relative;
+}
+footer .icon-arrow-up2{
+    font-size: 25px;
+    color: #52d3aa;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    transition: 0.5s all;
+}
+footer .icon-arrow-up2:hover{
+    top: -5px;
+}
+footer p{
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 20px;
 }
 /* 媒体查询 */
 @media screen and (max-width: 768px) {
